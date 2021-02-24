@@ -1,11 +1,14 @@
 import React from 'react';
+import Bag from '../Bag/Bag';
 
-const Selection = () => {
-    return(
-        <div>
-            <h1>Hello world</h1>
-        </div>
-    );
-};
+class Selection extends React.Component {
+    render() {
+        return (
+            <div>
+                <Bag message="test"/>
+            </div>
+        )
+    }
+}
 
 export default Selection;

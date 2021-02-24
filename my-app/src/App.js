@@ -1,9 +1,13 @@
 import React from 'react';
 import Selection from './components/Selection/Selection';
+import Bag from './components/Bag/Bag';
 
 function App() {
   return (
-   <Selection />
+    <div>
+      <Selection />
+      <Bag />
+    </div>  
   );
 }
 
